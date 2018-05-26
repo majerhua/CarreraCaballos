@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#D8F781"
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/caballo_black"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="17dp"
+        android:layout_width="25dp"
+        android:id="@+id/contFichaNegra"
+        android:layout_height="25dp" />
+    <GridLayout
+
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:layout_centerVertical="true"
+        android:columnCount="6"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/celda0_10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+
+            />
+
+        <ImageView
+            android:id="@+id/celda1_10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda3_10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda4_10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda5_10"
+            android:text="Celda 1.6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda3_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda4_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda5_9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+
+        <ImageView
+            android:id="@+id/celda0_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda3_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda4_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda5_8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+
+        <ImageView
+            android:id="@+id/celda0_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda3_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda4_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda5_7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda3_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda4_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda5_6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda3_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda4_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda5_5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda3_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda4_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda5_4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda3_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda4_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda5_3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda3_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda4_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda5_2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/celda0_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda3_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+        <ImageView
+            android:id="@+id/celda4_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            />
+        <ImageView
+            android:id="@+id/celda5_1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            />
+
+        <ImageView
+            android:id="@+id/celda0_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            android:src="@drawable/caballo_black"
+            />
+
+        <ImageView
+            android:id="@+id/celda1_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            android:src="@drawable/caballo_white"
+            />
+
+        <ImageView
+            android:id="@+id/celda2_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            android:src="@drawable/caballo_black"
+            />
+        <ImageView
+            android:id="@+id/celda3_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            android:src="@drawable/caballo_white"
+            />
+        <ImageView
+            android:id="@+id/celda4_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#d79c21"
+            android:src="@drawable/caballo_black"
+            />
+        <ImageView
+            android:id="@+id/celda5_0"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="#fff"
+            android:src="@drawable/caballo_white"
+            />
+
+    </GridLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="7dp"
+        android:layout_height="40dp"
+        android:src="@drawable/caballo_white"
+        />
+    <TextView
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="25dp"
+        android:id="@+id/contFichaBlanca"
+        android:layout_height="25dp" />
+
+</RelativeLayout>
+
