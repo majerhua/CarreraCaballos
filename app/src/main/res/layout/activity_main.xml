@@ -82,26 +82,26 @@
             android:id="@+id/celda1_9"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
 
         <ImageView
             android:id="@+id/celda2_9"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda3_9"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda4_9"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda5_9"
@@ -115,7 +115,7 @@
             android:id="@+id/celda0_8"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
 
         <ImageView
@@ -147,7 +147,7 @@
             android:id="@+id/celda5_8"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
 
 
@@ -201,26 +201,26 @@
             android:id="@+id/celda1_6"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
 
         <ImageView
             android:id="@+id/celda2_6"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda3_6"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda4_6"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda5_6"
@@ -272,14 +272,14 @@
             android:id="@+id/celda0_4"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
 
         <ImageView
             android:id="@+id/celda1_4"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
 
         <ImageView
@@ -298,13 +298,13 @@
             android:id="@+id/celda4_4"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda5_4"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
 
         <ImageView
@@ -364,13 +364,13 @@
             android:id="@+id/celda2_2"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#d79c21"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda3_2"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:background="#fff"
+            android:background="#000"
             />
         <ImageView
             android:id="@+id/celda4_2"

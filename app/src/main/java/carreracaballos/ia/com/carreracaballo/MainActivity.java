@@ -1,6 +1,9 @@
 package carreracaballos.ia.com.carreracaballo;
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.stream.Collectors;
@@ -371,6 +374,11 @@ public class MainActivity extends AppCompatActivity  implements  OnClickListener
                     if(i==1|i==3|i==5)
                         T[i][j]=1;
                 }
+
+                if(i==2&&j==2||i==3&&j==2||i==0&&j==4||i==1&&j==4||i==4&&j==4||i==5&&j==4||i==1&&j==6||i==2&&j==6||i==3&&j==6||i==4&&j==6||i==0&&j==8||i==5&&j==8||i==2&&j==9||i==3&&j==9||i==1&&j==9||i==4&&j==9){
+                    T[i][j]=3;
+                }
+
             }
         }
 
@@ -566,6 +574,8 @@ public class MainActivity extends AppCompatActivity  implements  OnClickListener
 
 
     }
+
+    //USAREMOS UN ARBOL DE 2 NIVELES, USANDO EL METODO MAX-MIN
 
     //USAREMOS UN ARBOL DE 2 NIVELES, USANDO EL METODO MAX-MIN
 
@@ -878,8 +888,7 @@ public class MainActivity extends AppCompatActivity  implements  OnClickListener
                     for(int w=0;w<11;w++){
                         //Buscamos el boton que se apreto SEGUNDO
                         if(celdaActual == casilla[z][w]){
-                            int modInicioX = inicioX%2;
-                            int modInicioY = inicioY%2;
+
                             //&& ( (modInicioX == 0 && modInicioY==0) || (modInicioX == 1 && modInicioY==1) )
                             //if(turnoHumano == 0  ){
                             //  casilla[inicioX][inicioY].setImageResource(0);
